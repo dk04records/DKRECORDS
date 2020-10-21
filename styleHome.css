@@ -30,6 +30,7 @@ body {
 #navbar a:hover {
     background-color: whitesmoke;
     color: black;
+    transition: 0.1s;
 }
 
 #head {
