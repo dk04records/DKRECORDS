@@ -1,0 +1,73 @@
+body {
+    background-color: lightblue;
+}
+
+@font-face {
+    font-family: dafontfont;
+    src: url("https://www.dafont.com/exorcista.font");
+}
+
+#h1 a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+#navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+#head {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#head:hover {
+    box-shadow: black;
+}
+
+#havbar a.primu {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#root {
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#main {
+    padding: 100px;
+    margin: 100px;
+}
+
+#foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
